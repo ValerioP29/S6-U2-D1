@@ -63,7 +63,7 @@ form.addEventListener("submit", function (event) {
   // Aggiungi il nuovo pet all'array
   pets.push(newPet);
   const output = document.getElementById("output");
-  const petInfo = document.createElement("p");
+  const petInfo = document.createElement("li");
   petInfo.textContent = newPet.getPetInfo();
   output.appendChild(petInfo);
 
